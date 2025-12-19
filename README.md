@@ -134,31 +134,6 @@
 
 ---
 
-## Структура проекта
-
-```
-heroes_student_task/
-├── src/
-│   └── programs/
-│       ├── GeneratePresetImpl.java
-│       ├── SimulateBattleImpl.java
-│       ├── SuitableForAttackUnitsFinderImpl.java
-│       └── UnitTargetPathFinderImpl.java
-├── libs/
-│   └── heroes_task_lib-1.0-SNAPSHOT.jar
-└── README.md
-```
-
-## Сборка проекта
-
-Для сборки JAR-файла:
-1. Откройте проект в IntelliJ IDEA
-2. File → Project Structure → Artifacts
-3. Добавьте JAR → From modules with dependencies
-4. Build → Build Artifacts
-
-Полученный JAR-файл поместите в папку `heroes/jars`, заменив `obf.jar`.
-
 ## Использованные алгоритмы и структуры данных
 
 - **Жадный алгоритм** (Greedy Algorithm) — для генерации армии
